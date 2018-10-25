@@ -1,30 +1,28 @@
 // Business logic
 
 function columnBuilder(numberIndex, num) {
-  // var numarals = ["I","II","III","IV","V",]
 
-  var altNumarals = ["I","V","X","L","C","D","M"]
+  var altNumerals = ["I","V","X","L","C","D","M"]
   var column = numberIndex*2;
 
-
   if (num === 1) {
-    return altNumarals[column];
+    return altNumerals[column];
   } else if (num === 2) {
-    return altNumarals[column] + altNumarals [column];
+    return altNumerals[column] + altNumerals [column];
   } else if (num === 3) {
-    return altNumarals[column] + altNumarals[column] + altNumarals[column];
+    return altNumerals[column] + altNumerals[column] + altNumerals[column];
   } else if (num === 4) {
-    return altNumarals[column] + altNumarals [column + 1];
+    return altNumerals[column] + altNumerals [column + 1];
   } else if (num === 5) {
-    return altNumarals[column + 1];
+    return altNumerals[column + 1];
   } else if (num === 6) {
-    return altNumarals[column + 1] + altNumarals [column];
+    return altNumerals[column + 1] + altNumerals [column];
   } else if (num === 7) {
-    return altNumarals[column + 1] + altNumarals [column] + altNumarals [column];
+    return altNumerals[column + 1] + altNumerals [column] + altNumerals [column];
   } else if (num === 8) {
-    return altNumarals[column + 1] + altNumarals[column] + altNumarals[column] + altNumarals[column];
+    return altNumerals[column + 1] + altNumerals[column] + altNumerals[column] + altNumerals[column];
   } else if (num === 9) {
-    return altNumarals[column] + altNumarals [column + 2];
+    return altNumerals[column] + altNumerals [column + 2];
   }
 }
 
@@ -48,13 +46,22 @@ function numberColumnParser(numberString) {
 
 $(function() {
 
-  // 301
+  $("#formOne").submit(function(event) {
+    event.preventDefault();
+    var trojanHorse = $("#romans").val();
 
+    $(".error-message").hide();
+    if (parseInt(trojanHorse) >= 4000) {
+      $("#tooBig").show();
+    } else if (parseInt(trojanHorse) < 0) {
+      $("#tooLittle").show();
+    } else if (!parseInt(trojanHorse)) {
+      $("#justWrong").show();
+    } else {
+      $("#roman-numeral").text(numberColumnParser(trojanHorse)).show();
 
+    }
+  })
 
-  console.log(numberColumnParser('1983'));
-
-    //
-    // var numberIndex= number.split("").reverse;
     // console.log()
 });

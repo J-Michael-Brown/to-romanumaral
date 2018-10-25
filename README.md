@@ -25,13 +25,18 @@ _Example Output: "I"_
 * _**When User inputs the number 10, the expected result is "X"**_
   _Example Input: "10"_
   _Example Output: "X"_
-  
-* _**When User inputs the number 4, the expected result is "IV"**_
-  _Example Input: "4"_
-  _Example Output: "IV"_
-* _**When User inputs the number 4, the expected result is "IV"**_
-  _Example Input: "4"_
-  _Example Output: "IV"_
+* _**When User inputs the number 50, the expected result is "L"**_
+  _Example Input: "50"_
+  _Example Output: "L"_
+* _**When User inputs the number 37, the expected result is "XXXVII". Taking the result for "30" and appending the result of "7" to the end of the Roman numeral.**_
+  _Example Input: "37"_
+  _Example Output: "XXXVII"_
+* _**When User inputs the number 99, the expected result is "XCIX"**_
+  _Example Input: "99"_
+  _Example Output: "XCIX"_
+* _**When User inputs the number 4000+, the interface will not take the number.**_
+  _Example Input: "99"_
+  _Example Output: "XCIX"_
 
 
 ## Setup/Installation Requirements
