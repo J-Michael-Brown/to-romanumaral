@@ -35,8 +35,11 @@ _Example Output: "I"_
   _Example Input: "99"_
   _Example Output: "XCIX"_
 * _**When User inputs the number 4000+, the interface will not take the number.**_
-  _Example Input: "99"_
-  _Example Output: "XCIX"_
+  _Example Input: "4000"_
+  _Example Output: "Number is too big"_
+* _**When User inputs the number 0 or less (negative numbers), the interface will not take the number.**_
+  _Example Input: "-6"_
+  _Example Output: "Number cannot be negative or zero"_
 
 
 ## Setup/Installation Requirements

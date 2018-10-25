@@ -12,6 +12,7 @@
   <body>
     <div class="container">
 
+
       <form id="formOne">
 
         <label for="validationDefault01">Input Number to Romanize:</label>
@@ -19,19 +20,19 @@
         <div id="button-div">
 
           <button class="btn btn-primary" type="submit">Submit form</button>
+
+          <div class="results">
+
+            <div class="charriot">
+              <p class="error-message" id="roman-numeral"></p>
+            </div>
+            <p class="error-message" id="tooBig" >Number is too big</p>
+            <p class="error-message" id="tooLittle" >Number cannot be negative or zero</p>
+            <p class="error-message" id="justWrong" >That isn't even a number</p>
+
+          </div>
         </div>
       </form>
-
-      <div class="results">
-        <div class="charriot">
-          <p class="error-message" id="roman-numeral"></p>
-        </div>
-
-        <p class="error-message" id="tooBig" >Number is too big</p>
-        <p class="error-message" id="tooLittle" >Number cannot be negative</p>
-        <p class="error-message" id="justWrong" >That isn't even a number</p>
-
-      </div>
     </div>
 
   </body>
