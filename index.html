@@ -10,21 +10,28 @@
     <title></title>
   </head>
   <body>
+    <div class="container">
 
-    <form id="formOne">
+      <form id="formOne">
 
-      <label for="validationDefault01">Input Number to Romanize:</label>
-      <input type="text" class="form-control" id="romans">
+        <label for="validationDefault01">Input Number to Romanize:</label>
+        <input type="text" class="form-control" id="romans">
+        <div id="button-div">
 
-      <button class="btn btn-primary" type="submit">Submit form</button>
-    </form>
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
 
-    <div class="results">
-      <p class="error-message" id="roman-numeral"></p>
-      <p class="error-message" id="tooBig" >Number is too big</p>
-      <p class="error-message" id="tooLittle" >Number cannot be negative</p>
-      <p class="error-message" id="justWrong" >That isn't even a number</p>
+      <div class="results">
+        <div class="charriot">
+          <p class="error-message" id="roman-numeral"></p>
+        </div>
 
+        <p class="error-message" id="tooBig" >Number is too big</p>
+        <p class="error-message" id="tooLittle" >Number cannot be negative</p>
+        <p class="error-message" id="justWrong" >That isn't even a number</p>
+
+      </div>
     </div>
 
   </body>

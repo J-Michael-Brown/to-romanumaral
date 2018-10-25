@@ -58,6 +58,7 @@ $(function() {
     } else if (!parseInt(trojanHorse)) {
       $("#justWrong").show();
     } else {
+      $(".charriot").slideDown(5000);
       $("#roman-numeral").text(numberColumnParser(trojanHorse)).show();
 
     }

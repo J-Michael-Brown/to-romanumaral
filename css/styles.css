@@ -1,7 +1,39 @@
+#button-div {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+button {
+  margin: 50px auto !important;
+  margin-left: 50px;
+  text-align: center;
+
+}
+
 p {
+  text-align: center;
+}
+
+.charriot {
+  margin: auto;
+  display: none;
+}
+
+.charriot p {
   font-family: serif;
+  position: relative;
+  top: 135px;
+  right: 25px;
+
 }
 
 .error-message {
   display: none;
+}
+
+.charriot {
+  background-image: url('../imgs/charriot.jpg');
+  background-repeat: no-repeat;
+  height: 264px;
+  width: 340px;
 }
