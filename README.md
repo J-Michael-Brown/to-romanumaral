@@ -7,39 +7,49 @@
 ## Description
 
 ## Specifications
-* _**When User inputs the number 1, the expected result is "I"**_
-  _Example Input: "1"_
+* _**When User inputs the number 1, the expected result is "I"**_  
+_Example Input: "1"_  
 _Example Output: "I"_
-* _**When User inputs the number 3, the expected result is "III"**_
-  _Example Input: "3"_
-  _Example Output: "III"_
-* _**When User inputs the number 5, the expected result is "V"**_
-  _Example Input: "5"_
-  _Example Output: "V"_
-* _**When User inputs the number 4, the expected result is "IV"**_
-  _Example Input: "4"_
-  _Example Output: "IV"_
-* _**When User inputs the number 8, the expected result is "VIII"**_
-  _Example Input: "8"_
-  _Example Output: "VIII"_
-* _**When User inputs the number 10, the expected result is "X"**_
-  _Example Input: "10"_
-  _Example Output: "X"_
-* _**When User inputs the number 50, the expected result is "L"**_
-  _Example Input: "50"_
-  _Example Output: "L"_
-* _**When User inputs the number 37, the expected result is "XXXVII". Taking the result for "30" and appending the result of "7" to the end of the Roman numeral.**_
-  _Example Input: "37"_
-  _Example Output: "XXXVII"_
-* _**When User inputs the number 99, the expected result is "XCIX"**_
-  _Example Input: "99"_
-  _Example Output: "XCIX"_
-* _**When User inputs the number 4000+, the interface will not take the number.**_
-  _Example Input: "4000"_
-  _Example Output: "Number is too big"_
-* _**When User inputs the number 0 or less (negative numbers), the interface will not take the number.**_
-  _Example Input: "-6"_
-  _Example Output: "Number cannot be negative or zero"_
+
+* _**When User inputs the number 3, the expected result is "III"**_  
+_Example Input: "3"_  
+_Example Output: "III"_
+
+* _**When User inputs the number 5, the expected result is "V"**_  
+_Example Input: "5"_  
+_Example Output: "V"_
+
+* _**When User inputs the number 4, the expected result is "IV"**_  
+_Example Input: "4"_  
+_Example Output: "IV"_
+
+* _**When User inputs the number 8, the expected result is "VIII"**_  
+_Example Input: "8"_  
+_Example Output: "VIII"_
+
+* _**When User inputs the number 10, the expected result is "X"**_  
+_Example Input: "10"_  
+_Example Output: "X"_
+
+* _**When User inputs the number 50, the expected result is "L"**_  
+_Example Input: "50"_  
+_Example Output: "L"_
+
+* _**When User inputs the number 37, the expected result is "XXXVII". Taking the result for "30" and appending the result of "7" to the end of the Roman numeral.**_  
+_Example Input: "37"_  
+_Example Output: "XXXVII"_
+
+* _**When User inputs the number 99, the expected result is "XCIX"**_  
+_Example Input: "99"_  
+_Example Output: "XCIX"_
+
+* _**When User inputs the number 4000+, the interface will not take the number.**_  
+_Example Input: "4000"_  
+_Example Output: "Number is too big"_
+
+* _**When User inputs the number 0 or less (negative numbers), the interface will not take the number.**_  
+_Example Input: "-6"_  
+_Example Output: "Number cannot be negative or zero"_
 
 
 ## Setup/Installation Requirements
